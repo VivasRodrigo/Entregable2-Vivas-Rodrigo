@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotizador Seguro para el Hogar</title>
+
+</head>
+<body id="info">
+  <h1>Cotizador de seguros para el hogar</h1>
+  <h2>Introduzca los datos correctamente para realizar la cotización</h2>
+
+    <form id="miCotizacion">
+        <label for="nombre">Favor introduce tu nombre completo:</label>
+        <br>
+        <input type="text" id="nombre" name="nombre">
+        <br><br>
+
+        <label for="email">Introduce tu Email de contacto:</label>
+        <br>
+        <input type="email" id="email" name="email">
+        <br><br>
+
+        <label for="vivienda">Tipo de Vivienda:(introduce un número) <br>
+          <dd>1) Casa</dd> <dd>2)Departamento</label>
+          </dd>
+        <input type="number" id="vivienda" name="vivienda">
+        <br><br>
+
+        <label for="metros">Cuantos metros cuadrados posee?</label>
+        <br>
+        <input type="number" id="metros" name="metros">
+        <br><br>
+
+        <label for="tipoplan">Que tipo de seguro deseas:(introduce un número)<dd>1) Básico<dd> 2) Completo<dd>3) Full </label>
+        </dd>
+        <input type="number" id="tipoplan" name="tipoplan">
+        <br><br>
+
+        <button type="submit">Cotizar</button>
+        
+        <div id="compra"></div>
+        <br><br>
+    </form>
+
+      <script src="js/main.js"></script>
+</body>
+</html>
